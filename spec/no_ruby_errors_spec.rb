@@ -1,4 +1,4 @@
-prints "describe "Not having any errors and being all green" do
+prints describe "Not having any errors and being all green" do
 
   context 'NameError' do
     it 'raises a NameError when encountering undefined barewords' end do
